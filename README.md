@@ -77,7 +77,7 @@ Footwear_Ecom_Site/
 ![Order History](screenshots/order.jpg)
 
 ### 🛠️ Admin Panel
-![Admin Panel](screenshots/admin-panel.jpg)
+![Admin Panel](screenshots/admin-pannel.jpg)
 
 ---
 
