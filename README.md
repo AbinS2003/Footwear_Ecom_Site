@@ -56,6 +56,31 @@ Footwear_Ecom_Site/
 
 ```
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshots/Homepage.jpg)
+
+### 🏠 Homepage
+![Homepage](screenshots/homepage-2.jpg)
+
+
+### 🛍️ Product Details
+![Product Details](screenshots/product-details.jpg)
+
+### 🛒 Cart
+![Cart](screenshots/cart.jpg)
+
+### 📦 Order History
+![Order History](screenshots/order.jpg)
+
+### 🛠️ Admin Panel
+![Admin Panel](screenshots/admin-panel.jpg)
+
+---
+
 ## ✍️ Author
 Abin S  
 [GitHub](https://github.com/AbinS2003) | [LinkedIn](https://www.linkedin.com/in/abin-s-8912a1301/)
