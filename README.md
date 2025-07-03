@@ -14,9 +14,11 @@ A full-stack e-commerce web application for selling footwear online. Built with 
 - Edit user profile
 
 ### 🛠️ Admin Features
-- Add/edit/delete products
+- Add/edit/ products
 - View product list
 - Hide products from homepage (status = Hidden)
+- Analyze sales report
+- Update order status
 
 ---
 
@@ -42,7 +44,8 @@ A full-stack e-commerce web application for selling footwear online. Built with 
 
 ## 📂 Project Structure
 
-///
+```
+
 Footwear_Ecom_Site/
 ├── frontend/ # React frontend
 │ ├── public/
@@ -51,5 +54,11 @@ Footwear_Ecom_Site/
 │ ├── src/
 │ └── application.properties (not committed)
 
-///
+```
+
+## ✍️ Author
+Abin S
+[GitHub](https://github.com/AbinS2003) | [LinkedIn](https://www.linkedin.com/in/abin-s-8912a1301/)
+
+
 
