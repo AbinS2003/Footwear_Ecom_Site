@@ -1,0 +1,25 @@
+    .center-content {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .coming-icon {
+        font-size: 5rem;
+        color: #0d6efd;
+        margin-bottom: 1rem;
+    }
+
+    .coming-title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .coming-subtext {
+        font-size: 1.2rem;
+        color: #6c757d;
+    }

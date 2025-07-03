@@ -1,0 +1,57 @@
+    .order-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            width: 40%;
+        }
+
+        .product-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .customer-info {
+            width: 25%;
+        }
+
+        .status {
+            width: 15%;
+            text-transform: capitalize;
+        }
+
+        .action {
+            width: 10%;
+        }
+
+        .badge-status {
+            padding: 5px 10px;
+            border-radius: 12px;
+        }
+
+        .badge-pending { background-color: #ffc107; }
+        .badge-dispatched { background-color: #0dcaf0; }
+        .badge-completed { background-color: #198754; color: white; }
+        .badge-returned { background-color: #dc3545; color: white; }
+
+        select.form-select:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        .filter-wrapper select {
+            border-radius: 50px;
+        }
+
+        .filter-wrapper {
+            border: 1px solid white;
+        }

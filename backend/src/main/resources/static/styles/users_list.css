@@ -1,0 +1,99 @@
+        .user-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .user-row {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 0;
+        }
+
+        .avatar {
+            width: 45px;
+            height: 45px;
+            background-color: #dee2e6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #495057;
+            flex-shrink: 0;
+        }
+
+        .user-name {
+            flex: 1;
+            font-weight: 500;
+        }
+
+        .user-email {
+            flex: 2;
+            color: #6c757d;
+        }
+
+        .user-date {
+            flex: 1;
+            text-align: end;
+            color: #6c757d;
+            white-space: nowrap;
+        }
+
+        .divider {
+            border-top: 1px solid #dee2e6;
+        }
+
+         .title-row {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    padding: 1rem 0;
+                    margin-bottom:10px;
+                }
+
+
+              .user-name-title {
+                    flex: 1;
+                    font-weight: 500;
+                    font-size:30px;
+                }
+
+                .user-email-title {
+                    flex: 1;
+                    font-weight: 500;
+                    font-size:30px;
+                }
+
+                .user-date-title {
+                    flex: 1;
+                    text-align: end;
+                    font-weight: 500;
+                    white-space: nowrap;
+                    font-size:30px;
+                }
+
+                .orders-button button {
+                    background-color: #28a745; /* Bootstrap-like green */
+                    color: white;
+                    padding: 8px 16px;
+                    border: none;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease, transform 0.2s ease;
+                    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+                }
+
+                .orders-button button:hover {
+                    background-color: #218838;
+                    transform: scale(1.03);
+                }
+
+                .orders-button button:active {
+                    transform: scale(0.97);
+                }

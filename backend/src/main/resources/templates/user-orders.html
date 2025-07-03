@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My Orders</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div th:replace="fragments/navbar :: body"></div>
+<div th:replace="fragments/back-button :: back-button"></div>
+
+<div class="container my-5" style="max-width: 900px;">
+    <h1 class="mb-4 fw-bold text-center mt-4 fs-1"> Orders</h1>
+
+    <!-- If no orders -->
+    <div th:if="${noOrders}">
+        <p class="text-center text-muted fs-2">No orders found for this user.</p>
+    </div>
+
+    <!-- If orders exist -->
+    <div th:each="order : ${orders}"
+         class="d-flex align-items-center border rounded p-3 mb-3 shadow-sm bg-white justify-content-between">
+
+        <!-- Image -->
+        <img th:src="@{'/images/' + ${order.product.image}}"
+             th:alt="${order.product.title}"
+             style="width: 80px; height: 80px; object-fit: contain;"
+             class="me-3"/>
+
+        <!-- Info -->
+        <div class="flex-grow-1 text-start ms-3">
+            <h6 class="mb-1 fw-bold" th:text="${order.product.title}">Product Title</h6>
+            <p class="mb-1 text-success fw-semibold">₹<span th:text="${order.product.price}">0.00</span></p>
+            <p class="mb-1 text-muted small">Size: <span th:text="${order.size.value}">M</span></p>
+            <p class="mb-0 text-muted small">Ordered on: <span th:text="${order.date}">2025-06-28</span></p>
+        </div>
+
+        <div class="text-end d-flex flex-column align-items-end gap-2">
+            <span th:text="${order.status}">Status</span>
+        </div>
+
+
+        <!--            <form th:if="${order.status != 'Delivered' and order.status != 'Cancelled'}"-->
+<!--                  th:action="@{/orders/cancel/{productId}(productId=${order.productId})}" method="post">-->
+<!--                <button type="submit" class="btn btn-sm btn-outline-danger mt-1">-->
+<!--                    Cancel-->
+<!--                </button>-->
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

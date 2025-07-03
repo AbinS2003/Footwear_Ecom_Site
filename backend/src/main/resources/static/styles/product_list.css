@@ -1,0 +1,23 @@
+ .product-row {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .product-img {
+            width: 100px;
+            height: 70px;
+            margin-right: 20px;
+        }
+
+        .product-info {
+            flex-grow: 1;
+        }
+
+        .btn-details {
+            white-space: nowrap;
+        }
+
+        hr {
+            margin: 0;
+        }

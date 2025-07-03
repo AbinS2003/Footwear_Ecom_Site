@@ -1,0 +1,46 @@
+/* src/components/ProductCard.css */
+
+.product-card {
+ /* Thin white border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(34, 34, 34, 0.84);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(29, 29, 29, 0.764);
+}
+
+.product-img {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-price {
+  font-size: 1rem;
+  color: #007bff;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
