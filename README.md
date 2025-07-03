@@ -57,7 +57,7 @@ Footwear_Ecom_Site/
 ```
 
 ## ✍️ Author
-Abin S
+Abin S  
 [GitHub](https://github.com/AbinS2003) | [LinkedIn](https://www.linkedin.com/in/abin-s-8912a1301/)
 
 
