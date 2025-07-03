@@ -58,23 +58,29 @@ Footwear_Ecom_Site/
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots  
+
 
 ### 🏠 Homepage
-![Homepage](screenshots/Homepage.jpg)
+![Homepage](screenshots/HomePage.jpg)  
+
 
 ### 🏠 Homepage
-![Homepage](screenshots/homepage-2.jpg)
+![Homepage](screenshots/homepage-2.jpg)  
+
 
 
 ### 🛍️ Product Details
-![Product Details](screenshots/product-details.jpg)
+![Product Details](screenshots/product-details.jpg)  
+
 
 ### 🛒 Cart
-![Cart](screenshots/cart.jpg)
+![Cart](screenshots/cart.jpg)  
+
 
 ### 📦 Order History
-![Order History](screenshots/order.jpg)
+![Order History](screenshots/order.jpg)  
+
 
 ### 🛠️ Admin Panel
 ![Admin Panel](screenshots/admin-pannel.jpg)
